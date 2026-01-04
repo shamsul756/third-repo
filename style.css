@@ -18,3 +18,16 @@
     display: flex;
     gap: 50px;
 }
+.card-container div{
+    border: 3.5px solid #ff3;
+    height: 100px;
+    width: 150px;
+    background-color: rgba(239, 22, 156, 0.267);
+    font-size: 3em;
+}
+.card-container{
+    display: flex;
+    justify-content: start;
+}
+/*we can also use justify content are justify betwen and around to divide whole places */
+ 
