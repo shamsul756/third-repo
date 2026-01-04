@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>phita ghor</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -13,10 +14,13 @@
        <section>
         <h2>shams phita ghor</h2>
         <form action="">
+            <fieldset class="basic-info">
+            <legend>basic-info</legend>
             <label for="text">type your name </label>
             <input type="text" id ="text" placeholder="your name ">
             <label for="email">type your email</label>
             <input type="email" id="email" placeholder="your email">
+            </fieldset>
             <fieldset>
                 <legend>
                     shams phita ghor information
@@ -31,13 +35,19 @@
             </fieldset>
             <fieldset>
                 <legend>vorta selection</legend>
-                <input type="radio" name="vorta" id="shidol">
+                <input type="checkbox" name="vorta" id="shidol">
                 <label for="shidol">shidol vorta</label>
-                <input type="radio" name="vorta" id="alu-vorta">
+                <input type="checkbox" name="vorta" id="alu-vorta">
                 <label for="alu-vorta">alu vorta</label>
-                <input type="radio" name="vorta" id="begun-vorta">
+                <input type="checkbox" name="vorta" id="begun-vorta">
                 <label for="begun-vorta">begun-vorta</label>
             </fieldset>
+            <fieldset>
+                <legend>your optinion </legend>
+                <textarea cols="50" rows="5" name="" id=""></textarea>
+            </fieldset>
+            <input type="submit" value="submit your form"> 
+            <input type="reset" value="reset your form">
         </form>
        </section>
 
