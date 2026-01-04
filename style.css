@@ -30,4 +30,15 @@
     justify-content: start;
 }
 /*we can also use justify content are justify betwen and around to divide whole places */
- 
+.card-create div{
+    border: 2px solid #4ff;
+    height: 100px;
+    weight: 100px;
+    background-color: #dd32;
+    font-size: 2em;
+} 
+.card-create{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
