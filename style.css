@@ -1,3 +1,13 @@
 .container{
     background-color: #f3f;
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    align-items: center;
+}
+.box{
+    background-color: #45f;
+    font-size: 4em;
+    height: 200px;
+    width: 200px;
 }
