@@ -1,3 +1,16 @@
+body{
+    max-width: 1170px;
+    /* background-color: rgb(238, 236, 121); */
+    margin: 0 auto;
+
+}
+.card:hover{
+    background-color: aqua;
+}
+.card-container{
+    display: flex;
+    gap: 20px;
+}
 .card{
     width: 300px;
     border: 2px solid sandybrown;
